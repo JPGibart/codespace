@@ -1,0 +1,15 @@
+/workspaces/codespace/MonProjet/bin/Debug/net8.0/MonProjet
+/workspaces/codespace/MonProjet/bin/Debug/net8.0/MonProjet.deps.json
+/workspaces/codespace/MonProjet/bin/Debug/net8.0/MonProjet.runtimeconfig.json
+/workspaces/codespace/MonProjet/bin/Debug/net8.0/MonProjet.dll
+/workspaces/codespace/MonProjet/bin/Debug/net8.0/MonProjet.pdb
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.AssemblyInfoInputs.cache
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.AssemblyInfo.cs
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.csproj.CoreCompileInputs.cache
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.sourcelink.json
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.dll
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/refint/MonProjet.dll
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.pdb
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/MonProjet.genruntimeconfig.cache
+/workspaces/codespace/MonProjet/obj/Debug/net8.0/ref/MonProjet.dll
