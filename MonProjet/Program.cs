@@ -4,6 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Bonjour depuis mon Codespace C# !");
+        if (args.Length == 1)
+        {
+            SayHello(args[0]);
+        }
+        else
+        {
+            SayHello("world");
+        }
+    }
+
+    static void SayHello(string dest)
+    {
+        Console.WriteLine("Bonjour " + dest + "!");
     }
 }
