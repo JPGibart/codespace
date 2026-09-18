@@ -1,21 +1,28 @@
-﻿namespace MonProjet;
+﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace MonProjet;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        if (args.Length == 1)
-        {
-            SayHello(args[0]);
-        }
-        else
-        {
-            SayHello("world");
-        }
+        string? url = Console.ReadLine();
+        if (url == null) return;
+
+
+        string response = await GetResponse(url);
+        SayHello(response);
+    }
+    static async Task<string> GetResponse(string url)
+    {
+        using HttpClient client = new HttpClient();
+        return await client.GetStringAsync(url);
     }
 
     static void SayHello(string dest)
     {
-        Console.WriteLine("Bonjour " + dest + "!");
+        Console.WriteLine(dest);
     }
 }
